@@ -1,0 +1,366 @@
+body{
+    background-color: #f5f5f5;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+.box .swiper-container{
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+}
+.box .swiper-container img{
+    width: 100%;
+    height: 217px;
+}
+.box .swiper-container p{
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 181px;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 9;
+}
+.box .swiper-container ul{
+    width: 90%;
+    margin: 5%;
+    position: absolute;
+    top: 216px;
+    z-index: 10;
+}
+.box .swiper-container ul li{
+    line-height: 35px;
+
+}
+.box .swiper-container ul li:first-of-type{
+    font-size: 24px;
+    font-weight: 600;
+}
+.box .swiper-container ul li:nth-of-type(2){
+    background: url("../deta_img/phone.png") no-repeat 325px 0;
+    background-size: 4%;
+}
+.box .swiper-container ul li:nth-of-type(2) span{
+    color: #db4c3f;
+}
+.box .swiper-container ul li:nth-of-type(3){
+    font-size: 14px;
+    color: #b0b0b0;
+}
+.box .swiper-container ul li:nth-of-type(4) span{
+    font-size: 14px;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    color: #849aae;
+    background-color: #dee9f0;
+}
+.box .swiper-container ul li:nth-of-type(4) span:first-of-type{
+    margin-left: 0;
+}
+
+.box .lists{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.box .lists ul{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box .lists ul li{
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.box .house_color{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.box .house_color ul{
+    width: 90%;
+    margin-left: 5%;
+}
+.box .house_color ul li{
+    margin-top: 10px;
+}
+.box .house_color ul li:nth-of-type(1){
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    color: #db4c3f;
+    border-bottom: 1px solid #ccc;
+}
+.box .house_color ul li:nth-of-type(2){
+    font-size: 14px;
+    line-height: 30px;
+}
+.box .house_color ul li:nth-of-type(3){
+    font-size: 16px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #ccc;
+    border-top: 1px solid #ccc;
+}
+
+
+.hot .hot_house{
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.hot .hot_house li:first-of-type{
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+.hot .hot_house li:first-of-type h1{
+    position: absolute;
+    left: 5%;
+    color: #ff9650;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: left;
+}
+.hot .hot_house li{
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot .hot_house li img{
+    width: 82px;
+    height: 82px;
+}
+.hot .hot_house li div{
+    line-height: 25px;
+}
+.hot .hot_house li div p{
+    line-height: 35px;
+}
+.hot .hot_house li div p:first-of-type{
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.hot .hot_house li div p:nth-of-type(2){
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.hot .hot_house li div p:nth-of-type(3){
+    font-size: 14px;
+    color: #849aae;
+}
+.hot .hot_house li div p:nth-of-type(3) span{
+    background-color: #e8f1f7;
+    margin-left: 5px;
+}
+.hot .hot_house li div p:nth-of-type(3) span:first-of-type{
+    margin-left: 0;
+}
+hr{
+    width: 90%;
+    height: 2px;
+    border: none;
+    background-color: #ff9650;
+}
+
+.box .school{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.box .school ul{
+    width: 90%;
+    margin-left: 5%;
+}
+.box .school ul li{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+}
+.box .school ul li span{
+    color: #ccc;
+}
+.box .school ul li:first-of-type{
+    font-size: 22px;
+    font-weight: 600;
+}
+.box .school ul li:last-of-type{
+    text-align: center;
+    border: none;
+    color: #ccc;
+}
+
+.box .map{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.box .map .map_title{
+    width: 90%;
+    margin-left: 5%;
+}
+.box .map .map_title h1{
+    font-size: 20px;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    line-height: 50px;
+}
+.box .map .map_title #container{
+    width: 100%;
+    height: 200px;
+    padding: 20px 0;
+}
+
+
+
+.box .new{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.new .hot_house{
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+}
+.new .hot_house li{
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.new .hot_house li img{
+    width: 82px;
+    height: 82px;
+}
+.new .hot_house li div{
+    width: 53%;
+    line-height: 25px;
+}
+.new .hot_house li div p:first-of-type{
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.new .hot_house li div p:nth-of-type(2){
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.new .hot_house li div p:nth-of-type(2) span{
+    color: #ff8a00;
+}
+.new .hot_house li div p:nth-of-type(3){
+    font-size: 14px;
+    display: flex;
+    color: #999;
+    justify-content: space-between;
+}
+.new .hot_house li div p:nth-of-type(4){
+    font-size: 14px;
+    color: #849aae;
+}
+.new .hot_house li div p:nth-of-type(4) span{
+    background-color: #e8f1f7;
+    margin-left: 5px;
+}
+.new .hot_house li div p:nth-of-type(4) span:first-of-type{
+    margin-left: 0;
+}
+hr{
+    width: 90%;
+    height: 1px;
+    border: none;
+    background-color: #ccc;
+}
+.new .hot_house li:first-of-type{
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+.new .hot_house li:first-of-type h1{
+    position: absolute;
+    left: 5%;
+    line-height: 50px;
+    font-size: 22px;
+}
+.new .hot_house li:last-of-type{
+    font-size: 16px;
+    color: #ccc;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ccc;
+}
+.new .hot_house li .color_{
+    width: 95%;
+    margin-left: 5%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ccc;
+    text-indent: 20px;
+
+}
+.new .hot_house li .color_ span{
+    color: #ccc;
+    position: absolute;
+    top: 87px;
+}
+.new .hot_house li .color_ .down{
+    color: #ccc;
+    position: absolute;
+    top: 90px;
+}
+
+
+.box .down_{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.box .down_ button{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    float: left;
+    color: #fff;
+    font-size: 17px;
+    background: url("../deta_img/user.png") no-repeat 38px 6px #ff8a00;
+    background-size: 13%;
+}
+.box .down_ p{
+    width: 30%;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: url("../deta_img/xin.png") no-repeat 8px 6px;
+    background-size: 27%;
+}

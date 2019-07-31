@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box .list_title {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.box .list_title input {
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 5%;
+    text-indent: 10px;
+    color: #ccc;
+}
+
+.box .list_title span {
+    display: block;
+    width: 52px;
+    height: 20px;
+    border-left: 1px solid;
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    background: url("../imgs/search_03.png") no-repeat center center;
+    background-size: 50% 100%;
+}
+
+.box .list_lists {
+    width: 100%;
+    background-color: #fff;
+}
+
+.box .list_lists > ul {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.box .list_lists > ul > li {
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+}
+
+
+
+.box .list_lists ul > li .first_ul{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    height: 40%;
+    display: none;
+    background-color: #fff;
+}
+.box .list_lists ul > li .first_ul li{
+    width: 100%;
+    height: 100%;
+}
+.box .list_lists ul > li .first_ul li p{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: #999;
+}
+.box .list_lists ul > li .first_ul li p span{
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fff;
+    color: #ff8a00;
+}
+.box .list_lists ul > li .first_ul li ul{
+    width: 74%;
+    float: left;
+    background-color: #fff;
+}
+.box .list_lists ul > li .first_ul li ul li{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 50%;
+    float: left;
+    line-height: 38px;
+}
+.photo{
+    background: url("../imgs/ok.png") no-repeat 1px 3px;
+}
+
+.list_lists ul li .two_ul{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 999;
+    background-color: #fff;
+    left: 0;
+    display: none;
+}
+
+.list_lists ul li .two_ul li{
+    margin-top: 5px;
+    width: 90%;
+    text-align: left;
+    font-size: 16px;
+    color: #999;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 5%;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.list_lists ul li .two_ul li span{
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+}
+.list_lists ul li .two_ul li button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #ff8a00;
+    color: #fff;
+}
+.list_lists ul li .two_ul li:last-of-type{
+    border: none;
+}
+
+.list_lists ul li div{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    left: 0;
+    display: none;
+}
+.list_lists ul li div ul{
+    width: 90%;
+    /*margin-left: 5%;*/
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    border-bottom: 1px solid #ccc;
+}
+.list_lists >ul >li> div> ul> li{
+    width: 22%;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    color: #999;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.list_lists >ul >li> div> ul> li:first-of-type{
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    color: #000;
+    text-align: left;
+}
+.active{
+    color:  #ff8a00;
+}
+
+
+
+
+
+
+.box .list_lists ul > li > span {
+    font-size: 16px;
+}
+
+.box .hot {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.box .hot .title {
+    height: 60px;
+    background-color: #ff8a00;
+    color: #fff;
+    overflow: hidden;
+}
+
+.box .hot .title h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.box .hot .title h4 {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.center .hot_house {
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+}
+
+.center .hot_house li {
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center .hot_house li img {
+    width: 82px;
+    height: 82px;
+}
+
+.center .hot_house li div {
+    width: 53%;
+    line-height: 25px;
+}
+
+.center .hot_house li div p:first-of-type {
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.center .hot_house li div p:nth-of-type(2) {
+    width: 110px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center .hot_house li div p:nth-of-type(3) {
+    width: 180px;
+    font-size: 13px;
+    display: flex;
+    color: #b0b0b0;
+    justify-content: space-between;
+}
+
+.center .hot_house li div p:nth-of-type(3) span {
+    color: #ff8a00;
+}
+
+.center .hot_house li div p:nth-of-type(4) {
+    font-size: 13px;
+    color: #b0b0b0;
+}
+
+hr {
+    width: 90%;
+    height: 2px;
+    border: none;
+    background-color: #ff8a00;;
+}
